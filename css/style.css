@@ -97,3 +97,17 @@ h2 {
 .input:last-child {
     margin-bottom: 0;
 }
+
+.logo {
+    display: flex;
+}
+
+.header {
+    width: 100%;
+    position: absolute;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
