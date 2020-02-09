@@ -31,8 +31,10 @@ h2 {
 .contact-us {
     display: flex;
     flex-direction: column;
-    background-color: black;
+   background: url(../img/map.png) no-repeat center;
     width: 100%;
+    margin-top: 50px;
+    background-size: cover;
 }
 
 .input {
@@ -42,7 +44,7 @@ h2 {
     margin-bottom: 25px;
 }
 
-.textarea {
+textarea {
     width: 100%;
 }
 
@@ -56,6 +58,7 @@ h2 {
 .right {
     display: flex;
     width: calc(50% - 15px);
+    
 }
 
 .form-wrapper {
@@ -80,6 +83,7 @@ h2 {
     margin-bottom: 25px;
     text-transform: uppercase;
     font-size: 40px;
+    margin-top: 50px;
 }
 
 .contact-wrapper {
@@ -100,14 +104,100 @@ h2 {
 
 .logo {
     display: flex;
+    width: 100%;
+    font-size: 26px;
+    letter-spacing: 1px;
+    line-height: 41px;
+    color: #fed136;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .header {
-    width: 100%;
-    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    
 }
+.ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    font-family: "Montserrat";
+    font-weight: 400;
+   
+}
+.nav{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+margin-top: 10px;
+}
+.ul-iteems{
+margin-left: 60px;
+padding: 0;
+list-style: none;
+text-transform: uppercase;
 
-.container {
+}
+a:hover{
+color: yellow;
+
+}
+a{
+ text-decoration: none;   
+ color: black;
+}
+.services{
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 125px;
+  font-size: 40px;
+  letter-spacing: -1px;
+  line-height: 75px;
+  color: #222222;
+  font-family: "Montserrat";
+  font-weight: 700;
+  
+}
+.lore{
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 16px;
+color: #777777;
+font-family: "Droid Serif";
+font-weight: 400;
+font-style: italic;
+}
+.arthas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+margin-top: 50px;
+}
+.zxc{
+width: 285px;
+text-align: center;
+
+}
+img{
+ text-align: center; 
+}
+h2{
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 75px;
+    color: #222222;
+    font-family: "Montserrat";
+    font-weight: 700;
+  text-align: center;
+}
+p{
+    
+    text-align: center;
 }
